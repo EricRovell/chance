@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@/(.*)": "<rootDir>/src/$1",
+    "^@util/(.*)": "<rootDir>/src/util/$1"
+  },
+  "testEnvironment": "node"
+}
