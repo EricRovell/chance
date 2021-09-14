@@ -11,6 +11,8 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": [ "./*" ],
+      "@lib/*": [ "./lib/*" ],
+      "@lib": [ "./lib/index.ts" ],
       "@util/*": [ "util/*" ],
       "@types": [ "types/index.ts" ]
     }
