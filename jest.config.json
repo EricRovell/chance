@@ -5,6 +5,7 @@
   },
   "moduleNameMapper": {
     "^@/(.*)": "<rootDir>/src/$1",
+    "^@lib/(.*)": "<rootDir>/src/lib/$1",
     "^@util/(.*)": "<rootDir>/src/util/$1"
   },
   "testEnvironment": "node"
